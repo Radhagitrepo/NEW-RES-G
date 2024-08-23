@@ -443,8 +443,8 @@ async def set_rename_command(user_id, custom_rename_tag):
 
 # Function to get the user's custom renaming preference
 def get_user_rename_preference(user_id):
-    # Retrieve the user's custom renaming tag if set, or default to '@devggn'
-    return user_rename_preferences.get(str(user_id), '@devggn')
+    # Retrieve the user's custom renaming tag if set, or default to '@i_am_radha'
+    return user_rename_preferences.get(str(user_id), '@i_am_radha')
 
 # Function to set custom caption preference
 async def set_caption_command(user_id, custom_caption):
