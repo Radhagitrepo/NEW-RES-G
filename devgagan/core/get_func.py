@@ -102,21 +102,21 @@ async def get_msg(userbot, sender, edit_id, msg_link, i, message):
             
             await edit.edit('Preparing to Upload...')
 
-            # c = await db.get_data(sender)
-            # caption = None
+             c = await db.get_data(sender)
+             caption = None
             
-            # if c.get("caption"):
-            #     caption = c.get("caption")
-            # else:
-            #     caption = msg.caption
-            #     if c.get("clean_words"):
-            #         words = c.get("clean_words")
-            #         caption = remove_elements(words, caption)
+             if c.get("caption"):
+                 caption = c.get("caption")
+             else:
+                 caption = msg.caption
+                 if c.get("clean_words"):
+                     words = c.get("clean_words")
+                     caption = remove_elements(words, caption)
                     
-            #     if c.get("replace_txt") and c.get("to_replace"):
-            #         replace_txt = c.get("replace_txt")
-            #         to_replace = c.get("to_replace")
-            #         caption = replace_text(caption, replace_txt, to_replace)
+                 if c.get("replace_txt") and c.get("to_replace"):
+                     replace_txt = c.get("replace_txt")
+                     to_replace = c.get("to_replace")
+                     caption = replace_text(caption, replace_txt, to_replace)
 
             
 
