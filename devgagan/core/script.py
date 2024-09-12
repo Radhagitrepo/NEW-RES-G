@@ -3,7 +3,7 @@
 # ------------------------------------------------------------ #
 
 START_TXT = """
-Hi, welcome to Advance Content Saver Bot, designed to save restricted messages from public/private channels and private groups. First login in bot by /login then send post link.
+Hi, welcome to Advance Content Saver Bot, designed to save restricted messages from public/private channels and private groups. \n🔒 /login - Login to your userbot session\n\n ❌ /logout - Logout to your userbot session \n\n 📦 /batch - Download bulk links in a systematic way \n\n ⛔ /cancel - Stop batch processing \n\n 🛠️ /settings - Open settings to set your requirements .
 """
 
 FORCE_MSG = """
