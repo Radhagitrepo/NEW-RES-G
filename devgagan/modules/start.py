@@ -11,7 +11,6 @@ buttons = InlineKeyboardMarkup(
     [
         [InlineKeyboardButton("✨ Join Channel ✨", url="https://t.me/tg_bots_radha")],
         [InlineKeyboardButton("💵 Buy Premium 💵", url="https://t.me/i_am_radha")]
-        [InlineKeyboardButton("📕 Free Course 📕", url="https://t.me/Free_study_material_By_Radha")]
     ]
 )
 
